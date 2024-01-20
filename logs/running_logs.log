@@ -92,3 +92,350 @@ x==========x]
 [2024-01-20 12:20:12,209 :INFO : common: created directory at: artifacts]
 [2024-01-20 12:20:12,214 :INFO : common: created directory at: artifacts/data_ingestion]
 [2024-01-20 12:20:12,226 :INFO : 2234586076: File already exists of size: ~ 7718 KB]
+[2024-01-20 12:30:20,984 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 12:30:21,000 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 12:30:21,005 :INFO : common: created directory at: artifacts]
+[2024-01-20 12:30:21,012 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 12:30:26,350 :INFO : 2234586076: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CA62:36BAE7:315AA:5BD35:65AB6D0B
+Accept-Ranges: bytes
+Date: Sat, 20 Jan 2024 07:00:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4749-BOM
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1705734022.039331,VS0,VE266
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0638d65901db06306589a322d06939400c0c53d1
+Expires: Sat, 20 Jan 2024 07:05:22 GMT
+Source-Age: 0
+
+]
+[2024-01-20 13:20:18,124 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 13:20:18,136 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 13:20:18,140 :INFO : common: created directory at: artifacts]
+[2024-01-20 13:21:14,714 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 13:21:14,721 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 13:21:14,724 :INFO : common: created directory at: artifacts]
+[2024-01-20 13:21:14,727 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 13:26:13,199 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 14:54:47,604 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 14:54:47,608 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 14:54:47,611 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 14:54:47,613 :INFO : common: created directory at: artifacts]
+[2024-01-20 14:54:47,614 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 14:54:47,615 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 14:54:47,947 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 14:54:47,951 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 14:54:47,960 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 14:54:47,962 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 14:54:47,963 :INFO : common: created directory at: artifacts]
+[2024-01-20 14:54:47,965 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 14:54:47,966 :ERROR : main: 'DataValidation' object has no attribute 'download_file']
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 20, in <module>
+    data_validation.main()
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\pipeline\stage_02_data_validation.py", line 17, in main
+    data_validation.download_file()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidation' object has no attribute 'download_file'
+[2024-01-20 14:57:28,689 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 14:57:28,693 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 14:57:28,696 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 14:57:28,698 :INFO : common: created directory at: artifacts]
+[2024-01-20 14:57:28,699 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 14:57:28,700 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 14:57:28,842 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 14:57:28,843 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 14:57:28,847 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 14:57:28,851 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 14:57:28,852 :INFO : common: created directory at: artifacts]
+[2024-01-20 14:57:28,853 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 14:57:28,859 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:11:45,703 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 15:12:27,684 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:12:27,689 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:12:27,691 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:12:27,694 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 15:19:49,735 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:19:49,740 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:19:49,743 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:19:49,745 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 15:35:04,276 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 15:35:06,921 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 15:35:06,931 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:35:06,937 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:35:06,938 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:35:06,940 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 15:35:06,943 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 15:35:07,289 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:35:07,290 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 15:35:07,299 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:35:07,304 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:35:07,305 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:35:07,306 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 15:35:07,316 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:35:07,317 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 15:35:07,323 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:35:07,328 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:35:07,329 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:35:07,332 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 15:35:11,349 :ERROR : main: 'DataTransformation' object has no attribute 'validate_all_files_exist']
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 31, in <module>
+    data_transformation.main()
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.validate_all_files_exist()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataTransformation' object has no attribute 'validate_all_files_exist'
+[2024-01-20 15:39:18,371 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 15:39:19,080 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 15:39:19,088 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:39:19,096 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:39:19,097 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:39:19,098 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 15:39:19,099 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 15:39:19,376 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:39:19,378 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 15:39:19,390 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:39:19,393 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:39:19,395 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:39:19,395 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 15:39:19,403 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:39:19,403 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 15:39:19,410 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:39:19,415 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:39:19,417 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:39:19,418 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 15:39:22,153 :ERROR : main: 'DataTransformation' object has no attribute 'validate_all_files_exist']
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 31, in <module>
+    data_transformation.main()
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\pipeline\stage_03_data_transformation.py", line 14, in main
+    data_transformation.validate_all_files_exist()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataTransformation' object has no attribute 'validate_all_files_exist'
+[2024-01-20 15:45:53,046 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 15:45:53,828 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 15:45:53,837 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:45:53,842 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:45:53,844 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:45:53,845 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 15:45:53,846 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 15:45:54,126 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:45:54,129 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 15:45:54,138 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:45:54,143 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:45:54,145 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:45:54,146 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 15:45:54,155 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:45:54,158 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 15:45:54,164 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:45:54,170 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:45:54,173 :INFO : common: created directory at: artifacts]
+[2024-01-20 15:45:54,174 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 15:46:09,171 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 15:50:09,008 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 15:51:05,157 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 15:51:05,189 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 15:51:05,192 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:00:48,591 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 16:35:36,555 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 16:35:39,573 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 16:35:39,587 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:35:39,593 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:35:39,596 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:35:39,598 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 16:35:39,599 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 16:35:39,945 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:35:39,946 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 16:35:39,959 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:35:39,966 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:35:39,968 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:35:39,969 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 16:35:39,982 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:35:39,985 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 16:35:39,998 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:35:40,003 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:35:40,004 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:35:40,005 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 16:35:45,696 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:35:45,697 :INFO : main: *******************]
+[2024-01-20 16:35:45,699 :INFO : main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-20 16:35:45,702 :ERROR : main: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 41, in <module>
+    model_trainer = ModelTrainerTrainingPipeline()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainerTrainingPipeline' is not defined
+[2024-01-20 16:36:27,269 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 16:36:28,009 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 16:36:28,019 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:36:28,025 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:36:28,027 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:36:28,027 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 16:36:28,028 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 16:36:28,283 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:36:28,286 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 16:36:28,296 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:36:28,300 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:36:28,303 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:36:28,305 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 16:36:28,312 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:36:28,313 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 16:36:28,319 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:36:28,323 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:36:28,324 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:36:28,326 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 16:36:32,523 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:36:32,524 :INFO : main: *******************]
+[2024-01-20 16:36:32,528 :INFO : main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-20 16:36:32,530 :ERROR : main: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 41, in <module>
+    model_trainer = ModelTrainerTrainingPipeline()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainerTrainingPipeline' is not defined
+[2024-01-20 16:48:08,204 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 16:48:11,160 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 16:48:11,171 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:48:11,177 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:48:11,183 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:48:11,184 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 16:48:11,186 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 16:48:11,520 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:48:11,523 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 16:48:11,534 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:48:11,539 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:48:11,540 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:48:11,542 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 16:48:11,551 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:48:11,552 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 16:48:11,558 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 16:48:11,563 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 16:48:11,566 :INFO : common: created directory at: artifacts]
+[2024-01-20 16:48:11,567 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 16:48:16,734 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 16:48:16,735 :INFO : main: *******************]
+[2024-01-20 16:48:16,737 :INFO : main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-20 16:48:16,739 :ERROR : main: name 'ModelTrainerTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 41, in <module>
+    model_trainer = ModelTrainerTrainingPipeline()
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'ModelTrainerTrainingPipeline' is not defined
+[2024-01-20 17:45:43,099 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 17:45:53,276 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 17:45:53,287 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 17:45:53,293 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 17:45:53,294 :INFO : common: created directory at: artifacts]
+[2024-01-20 17:45:53,295 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 17:45:53,296 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 17:45:53,643 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 17:45:53,644 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 17:45:53,653 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 17:45:53,657 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 17:45:53,658 :INFO : common: created directory at: artifacts]
+[2024-01-20 17:45:53,659 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 17:45:53,665 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 17:45:53,668 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 17:45:53,676 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 17:45:53,680 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 17:45:53,686 :INFO : common: created directory at: artifacts]
+[2024-01-20 17:45:53,687 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 17:45:58,197 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 17:45:58,197 :INFO : main: *******************]
+[2024-01-20 17:45:58,201 :INFO : main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-20 17:45:58,211 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 17:45:58,217 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 17:45:58,219 :INFO : common: created directory at: artifacts]
+[2024-01-20 17:45:58,224 :INFO : common: created directory at: artifacts/model_trainer]
+[2024-01-20 18:07:48,181 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 18:10:06,742 :INFO : config: PyTorch version 2.1.2 available.]
+[2024-01-20 18:10:10,505 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 18:10:10,560 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 18:10:10,563 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 18:10:10,565 :INFO : common: created directory at: artifacts]
+[2024-01-20 18:10:10,566 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 18:10:10,568 :INFO : data_ingestion: File already exists of size: ~ 7718 KB]
+[2024-01-20 18:10:10,988 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 18:10:10,999 :INFO : main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-01-20 18:10:11,006 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 18:10:11,012 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 18:10:11,013 :INFO : common: created directory at: artifacts]
+[2024-01-20 18:10:11,014 :INFO : common: created directory at: artifacts/data_validation]
+[2024-01-20 18:10:11,022 :INFO : main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 18:10:11,025 :INFO : main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-01-20 18:10:11,036 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 18:10:11,042 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 18:10:11,043 :INFO : common: created directory at: artifacts]
+[2024-01-20 18:10:11,044 :INFO : common: created directory at: artifacts/data_transformation]
+[2024-01-20 18:10:16,707 :INFO : main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-01-20 18:10:16,709 :INFO : main: *******************]
+[2024-01-20 18:10:16,711 :INFO : main: >>>>>> stage Model Trainer stage started <<<<<<]
+[2024-01-20 18:10:16,718 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 18:10:16,722 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 18:10:16,723 :INFO : common: created directory at: artifacts]
+[2024-01-20 18:10:16,725 :INFO : common: created directory at: artifacts/model_evaluation]
