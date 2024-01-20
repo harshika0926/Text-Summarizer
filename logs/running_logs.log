@@ -1,0 +1,94 @@
+[2024-01-19 19:16:05,682 :INFO : main: welcome to our custom log]
+[2024-01-20 10:52:42,863 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 10:52:42,897 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:05:08,731 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:05:08,738 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:05:10,846 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:05:10,852 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:10:03,155 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:10:03,162 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:15:32,607 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:15:32,616 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:15:34,071 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:15:34,078 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:17:09,909 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:17:09,916 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:24:02,695 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:24:02,703 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:36:42,685 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:36:42,689 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:36:44,347 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:36:44,351 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:36:45,791 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:36:45,794 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 11:49:06,487 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 11:49:06,495 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 12:13:17,438 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 12:13:17,441 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 12:13:17,444 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 12:13:17,444 :ERROR : main: yaml file is empty]
+Traceback (most recent call last):
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\utils\common.py", line 30, in read_yaml
+    return ConfigBox(content)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\mytextsumm\Lib\site-packages\box\box.py", line 247, in __init__
+    raise BoxValueError("Cannot extrapolate Box from string")
+box.exceptions.BoxValueError: Cannot extrapolate Box from string
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ASUS\Desktop\Text-Summarizer\main.py", line 10, in <module>
+    data_ingestion.main()
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\pipeline\stage_01_data_ingestion.py", line 11, in main
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\config\configuration.py", line 11, in __init__
+    self.params = read_yaml(params_filepath)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\anaconda\envs\mytextsumm\Lib\site-packages\ensure\main.py", line 849, in __call__
+    return_val = self.f(*args, **kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\users\asus\desktop\text-summarizer\src\textSummariser\utils\common.py", line 32, in read_yaml
+    raise ValueError("yaml file is empty")
+ValueError: yaml file is empty
+[2024-01-20 12:19:45,264 :INFO : main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-20 12:19:45,322 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 12:19:45,346 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 12:19:45,349 :INFO : common: created directory at: artifacts]
+[2024-01-20 12:19:45,351 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 12:19:57,561 :INFO : data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: CA62:36BAE7:315AA:5BD35:65AB6D0B
+Accept-Ranges: bytes
+Date: Sat, 20 Jan 2024 06:49:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-bom4751-BOM
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1705733387.144613,VS0,VE667
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9da872b329031d11be37ddd572412b6f9a990b41
+Expires: Sat, 20 Jan 2024 06:54:47 GMT
+Source-Age: 0
+
+]
+[2024-01-20 12:19:57,945 :INFO : main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-20 12:20:12,181 :INFO : common: yaml file: config\config.yaml loaded successfully]
+[2024-01-20 12:20:12,201 :INFO : common: yaml file: params.yaml loaded successfully]
+[2024-01-20 12:20:12,209 :INFO : common: created directory at: artifacts]
+[2024-01-20 12:20:12,214 :INFO : common: created directory at: artifacts/data_ingestion]
+[2024-01-20 12:20:12,226 :INFO : 2234586076: File already exists of size: ~ 7718 KB]
